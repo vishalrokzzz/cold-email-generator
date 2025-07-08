@@ -1,8 +1,9 @@
+protobuf==3.20.3
 streamlit
 langchain
 langchain-community
 langchain-groq
-openai
 chromadb
-python-dotenv
+openai
 pandas
+python-dotenv
