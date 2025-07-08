@@ -13,7 +13,7 @@ class Portfolio:
         self.file_path=file_path
         self.df=pd.read_csv(file_path)
 
-        self.client= chromadb.PersistentClient("vectorstore")
+        self.client= chromadb.Client("vectorstore")
         self.collection=self.client.get_or_create_collection(name="portfolio")
     
 
