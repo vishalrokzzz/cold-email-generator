@@ -9,7 +9,7 @@ import pandas as pd
 
 
 class Portfolio:
-    def __init__(self,file_path="app/resource/my_portfolio.csv"):
+    def __init__(self,file_path="resource/my_portfolio.csv"):
         self.file_path=file_path
         self.df=pd.read_csv(file_path)
 
