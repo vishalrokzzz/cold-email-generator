@@ -3,4 +3,6 @@ langchain
 langchain-community
 langchain-groq
 openai
+chromadb
 python-dotenv
+pandas
